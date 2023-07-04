@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALIMENTACION SALUDABLE</title>
+    <link rel="stylesheet" href="/Landing.html">
+    <style>
+        /* MIS ESTILOS CSS */
+        *{
+            box-sizing: border-box;
+            margin: 0;
+
+        }
+       /* EL TAMAÑO DE LA CAJA.INCLUYRE BORDER Y PADDIING */
+
+        /* MI CABECERA.INCLUYE TITULO,LOGO Y MENU VERTICAL */
+        header{
+            width: 100vw;
+            height: auto;
+
+        }
+        /* CUERPO DE MI PAG. */
+        main{
+            width: 100vw;
+            height: auto;
+        }
+        /* PIE DE MI PAG */
+        footer{
+            width: 100vw;
+            height: 30vh;
+            background-color: aliceblue;
+        }
+        /* TITULO DE MI PAG */
+        h1{
+            text-align: center;
+            margin-top: 3rem;
+            font-family: sans-serif;
+            font-size: 4rem;
+
+        }
+        /* MI LOGOTIPO */
+        img{
+            width: 150px;
+            align-items:flex-start;
+            margin-top: 3rem;
+        }
+        /* MENU VERTICAL DE MI CABECERA */
+        .menuvertical{
+            margin-top: 5rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        a{
+            color: black;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            text-decoration: none;
+            font-size: xx-large;
+        }
+        a:hover{
+            
+            background-color: rgb(189, 189, 189);   
+     
+        }
+
+        /* CAJAS. LAS 3 SECCIONES DEL CUERPO DE MI PAGINA */
+
+        .caja{
+            width: 70vw;
+            height: 50vh;
+            display: flex;
+            justify-content: space-evenly;
+            font-size: larger;
+            font-weight: 500;
+            border: solid gainsboro;
+            border-radius: 25px;
+            margin: 20rem;
+            margin-top: 140px;
+
+        }
+
+        /* PARRAFOS DE SECCIONES */
+
+        .box{
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            font-family: sans-serif;
+            font-size: x-large;
+            margin-top: 2rem;
+            padding: 40px;
+            letter-spacing: 0.1rem;
+    
+        }
+
+        /* IMAGENES DE LAS TRES SECCIONES */
+        .imagen{
+            width: 350px;
+            height: 350px;
+            margin: 45px;
+            display: inline;
+            justify-content: space-evenly;
+
+        }
+
+        /* ESTILOS FOOTER */
+        .piedepag{
+            display: flex;
+            flex-direction: column;
+            margin: 40px;
+            margin-top: 1rem;
+        }
+
+        .pd{
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- COMIENZO DE LA CABCERA DE MI PAG -->
+    <header>
+        <div class="titulo">
+            <h1><img src="/IMG/Logo.png" alt="">ALIMENTACION SALUDABLE</h1>
+        </div>
+        <div class="menuvertical">
+            <a href="">INICIO</a>
+            <a href="">RECETAS</a>
+            <a href="">BLOG</a>
+        </div>
+    </header>
+    <!-- FINAL DE LA CABECERA DE MI PAG -->
+
+    <!-- COMIENZO DEL CUERPO DE MI PAG. TRES SECCIONES CON IMAGENES Y TEXTOS -->
+    <main>
+        <!-- LAS TRES SECCIONES -->
+        <section>
+            <div class="caja">
+                <!-- <h2>¿QUÉ SE ENTIENDE POR ALIMENTACIÓN SALUDABLE?</h2> -->
+                <img class="imagen" src="/IMG/pics01_25.jpg" alt="">
+                <p class="box">La alimentacion saludable, además de una necesidad, es un placer que precisa adaptarse a nuestros gustos y características. Las decisiones que tomamos a la hora de alimentarnos están basadas en nuestros conocimientos y el entorno en el que vivimos. La nutrición es importante para todos. Combinada con la actividad física y un peso saludable, la buena alimentación es una forma excelente de ayudar a tu cuerpo a mantenerse fuerte y saludable.</p>
+
+            </div>            
+        </section>
+        <!-- FIN DE LA PRIMERA SECCION -->
+        <!-- PRINCIPIO DE LA SEGUNDA SECCION -->
+        <section>
+            <div class="caja">
+                <img class="imagen" src="/IMG/pics02_25.jpg" alt="">
+                <p class="box">La alimentación juega un papel fundamental a la hora de mantener nuestro organismo en un estado óptimo de salud. Es fundamental seguir cada día una dieta saludable y equilibrada, con la que podamos prevenir la aparición de enfermedades, gozar de salud cardiovascular, controlar el colesterol, y mejorar nuestra calidad de vida. Ningún alimento o dieta puede prevenir la aparición de enfermedades. Pero puedes aprender a comer de una manera que mantenga tu cuerpo lo más saludable posible</p>
+            </div>
+        </section>
+        <!--FIN DE LA SEGUNDA SECCION  -->
+        <!-- PRINCIPIO DE LA TERCERA SECCION -->
+        <section>
+            <div class="caja">
+                <img class="imagen" src="/IMG/pics03_25.jpg" alt="">
+                <p class="box">Una alimentación saludable consiste en comer de todo sin exceso y distribuir los alimentos a lo largo del día. El concepto de cantidad está unido al de ración. Por ración entendemos la cantidad o porción de alimento adecuada a la medida de un plato «normal». Una vez que decidas cuántas calorías necesitas ingerir por día y qué alimentos consumirás, no permitas que unas porciones gigantes arruinen tus planes</p>
+            </div>
+        </section>
+        <!-- FIN DE LAS TRES SECCIONES -->
+    </main> <!-- FINAL DEL CUERPO DE MI PAG -->
+
+    <!-- COMIENZO DEL PIE DE  MI PAG -->
+    <footer>
+        <div class="piedepag">
+            <a class="pd">copyright 2023</a>
+            <a href="">Politica de privacidad</a>
+            <a href="">manarmesbahiafif@gmail.com</a>  
+            <a href="/Landing.html">#Suscribete#</a>
+        </div>
+       
+    </footer>
+    <!-- FIN DEL PIE DE MI PAGI -->
+</body>
+</html>
